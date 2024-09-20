@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This **Task Management App**, developed using **React**, provides users to manage tasks and subtasks efficiently, with the  ability to categorize them.
 
-Currently, two official plugins are available:
+## Features:
+- **Add new tasks**: Create and manage tasks.
+- **Add subtasks**:  Task can havesubtasks.
+- **Categorize tasks**: Group tasks by categories.
+- **Filter tasks**:  filter tasks based on categories.
+- **Edit tasks**: Modify existing tasks.
+- **Delete tasks**: Remove tasks when they are not needed.
+- **Mark tasks as completed**: marking tasks as done.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+Before running this application, make sure you have the following installed:
 
-## Expanding the ESLint configuration
+- **Node.js** (version 14 or higher)
+- **npm** (comes with Node.js) or **yarn** as the package manager.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can download Node.js [here](https://nodejs.org/).
 
-- Configure the top-level `parserOptions` property like this:
+## 1. Clone the repository
+- If you haven’t cloned the project from GitHub yet, do so with the following command:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+git clone https://github.com/GJSPK/TaskManagement.git.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 2. Navigate to the Directory
+- cd TaskManagement
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 3. install dependencies
+- npm install
+
+## 4. start the development server
