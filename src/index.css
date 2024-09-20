@@ -1,0 +1,25 @@
+/* src/index.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light background */
+  color: #333; /* Dark text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, select {
+  padding: 8px;
+  margin: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
